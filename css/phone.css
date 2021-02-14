@@ -1,0 +1,60 @@
+html {
+  font-size: 17px;
+}
+
+#about-container {
+  padding: 0;
+}
+
+#about-container .column {
+  width: 75%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#about-container img {
+  width: 75px;
+  vertical-align: middle;
+  margin-bottom: 20px;
+}
+
+#about-container img:hover {
+  width: 85px;
+  margin-bottom: 15px;
+}
+
+#about-container #img-column {
+  text-align: right;
+  width: 25%;
+}
+
+#projects-container {
+  text-align: center;
+}
+
+.project-card {
+  max-width: unset;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.maya-image {
+  max-width: 375px;
+}
+
+#about-container .info {
+  width: auto;
+  display: block;
+  padding-right: 0;
+}
+
+.project-card,
+#about-container {
+  max-width: 500px;
+}
+
+#about-container {
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+}
